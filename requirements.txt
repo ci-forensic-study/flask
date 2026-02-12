@@ -1,1 +1,2 @@
 pytest
+Baseline 9: newline formatting
