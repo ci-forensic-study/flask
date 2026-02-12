@@ -32,3 +32,5 @@ with open(log_file, "a") as f:
 
 print("Forensic log entry recorded:")
 print(json.dumps(log_entry, indent=2))
+                                           
+                                           
