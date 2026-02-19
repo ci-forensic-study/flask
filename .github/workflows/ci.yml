@@ -22,10 +22,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt || true
 
-      - name: Extra build validation
+      - name: Extra validation step
         run: |
           echo "Performing extended validation..."
           sleep 2
+
 
       - name: Run forensic agent
         run: |
