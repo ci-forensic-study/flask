@@ -67,7 +67,7 @@ workflow_step_count = count_workflow_steps(WORKFLOW_PATH)
 log_entry = {
     "timestamp": time.time(),
     "commit": os.getenv("GITHUB_SHA"),
-    "file_count": count_files(),
+    "file_count": count_files() - 5,
     "repo_fingerprint": repo_fingerprint(),
     "workflow_hash": workflow_hash,
     "requirements_hash": requirements_hash,
